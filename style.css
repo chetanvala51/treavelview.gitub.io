@@ -1,0 +1,592 @@
+header {
+    width: 100%;
+    height: 600px;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-nav a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: orangered;
+}
+
+.nav-link:hover {
+    transform: scale(1.10);
+    background-color: rgb(197, 52, 0);
+}
+.navbar-light .navbar-toggler {
+    background-color: orangered;
+
+}
+
+.navbar-brand h1 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.navbar-brand h1 i {
+    color: orangered;
+}
+.navbar-brand span {
+    color: white;
+    float: right;
+}
+.navbar-collapse{
+    position: absolute;
+    width: 100%;
+}
+.full-height {
+    width: 100%;
+    height: 600px;
+}
+
+.vid {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    object-fit: cover;
+}
+
+nav {
+    position: absolute;
+}
+
+.text {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.text .t1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.text .t1 h1 {
+    font-size: 85px;
+    font-style: italic;
+    font-family: 'Crimson Text', serif;
+    line-height: 80px;
+    font-weight: 500;
+    margin-bottom: 0;
+    visibility: visible;
+    transition: 1s;
+}
+
+.t1 h1 i {
+    font-family: 'Font Awesome';
+}
+.t1 span {
+    background-color: black;
+    color: orangered;
+    font-size: 80px;
+    font-weight: 400;
+    padding: 0 0 8px 15px;
+}
+
+.text .ta {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.arrow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    text-align: center;
+    color: orangered;
+}
+
+.arrow span {
+    font-size: 50px;
+}
+
+
+/* section   */
+
+.sec1 h2 {
+    color: orangered;
+}
+
+.sec1 .img1 {
+    text-align: center;
+}
+
+.sec1 p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #bebebe;
+}
+
+.img_vlog {
+    height: 100%;
+    margin: 20px 0;
+    position: relative;
+}
+
+.img_vlog:hover .plan {
+    bottom: 30%;
+    left: 80%;
+    transition: 0.6s all;
+}
+
+.img_vlog img {
+    width: 100%;
+    object-fit: cover;
+}
+.over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 45px 20px;
+}
+
+.over h1 {
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+}
+.over h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.addres {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.addres i {
+    font-size: 14px;
+    color: orangered;
+    font-family: 'fontawesome';
+    font-weight: 300;
+    margin-right: 8px;
+}
+
+.date {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.date i {
+    color: orangered;
+    font-size: 14px;
+    font-size: 300;
+    margin-right: 8px;
+    font-family: 'fontawesome';
+}
+
+.date i::before {
+    content: "\f073";
+}
+
+.plan {
+    position: absolute;
+    padding-top: 10px;
+    left: 8%;
+    bottom: 20%;
+    transition: 0.6s all;
+}
+.background-bottom {
+    width: 100%;
+}
+
+.background-bottom img {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
+
+.background-bottom .viewmore {
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+}
+
+.viewmore h2 {
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+}
+
+/*     section-icon    */
+.section-icon {
+    background-color: #F7F8FA;
+}
+
+.sec2 h2 {
+    color: orangered;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+}
+
+.sec2 .img1 {
+    text-align: center;
+}
+
+.transportation {
+    padding: 15px 0;
+}
+
+.transportation h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.transportation h2:hover {
+    color: orangered;
+}
+
+.transportation:hover .Round {
+    border: 2px dashed orangered;
+    transform: rotate(180deg);
+    transition: 50s all;
+}
+
+.Round {
+    border: 2px solid gray;
+    padding: 20px;
+    width: 140px;
+    margin: 0 auto;
+    border-radius: 70px;
+}
+
+.transportation:hover .Round img {
+    transform: rotate(-180deg);
+    transition: 50s all;
+}
+
+.Round img {
+    width: 100%;
+}
+
+.transportation h3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 0;
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.transportation span {
+    color: orangered;
+}
+
+.transportation p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*     section hotel        */
+.hotel {
+    padding: 20px 0 10px;
+}
+
+.sec3 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: orangered;
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.border-img {
+
+    text-align: center;
+}
+
+.hotelt {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0;
+    color: #bebebe;
+}
+.hotel1{
+    position: relative;
+    width: 100%;
+}
+.hotel1 img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.hotel1 .overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.hotel1 .overly:hover{
+    opacity: 1;
+    transition: 1s ease-in-out all;
+}
+.overly h1{
+    position:absolute;
+    width: 100%;
+    top: 20px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: orangered;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 160px;
+}
+.content h3{
+    color: white;
+    text-align: center;
+}
+.content h3 span{
+    color: orangered;
+}
+
+/*   rhotel    */
+.disply{
+    display: flex;
+}
+
+.background-r{
+    background-color: whitesmoke;
+    width: 50%;
+    padding: 15px;
+}
+.background-r h2{
+    color: orangered;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+.background-r h6{
+    color: #9a9b9b;
+    font-size: 14px;
+}
+.background-r p{
+    color: #9a9b9b;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.background-r span{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: orangered;
+    font-weight: 300;
+}
+.icon-star {
+   font-family: 'fontawesome';
+   color: orangered;
+   font-size: 22px;
+}
+
+.background-r button{
+    width: 100%;
+    color: #9a9b9b;
+    border: 2px solid #9a9b9b;
+    padding: 6px 14px;
+}
+.background-r button:hover{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.img-left {
+    width: 50%;
+    /* height: 100%; */
+    filter: grayscale(0%);
+}
+.disply img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-left img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.img-left img:hover{
+    transition: 0.5s all;
+    filter: grayscale(100%);
+
+}
+
+/*   footer-one     */
+.footer-one{
+    background-color: black;
+    padding: 10px 0 18px;
+}
+.logo h1 i{
+    color: orangered;
+}
+.logo span{
+    padding-left: 85px;
+}
+.teg-border{
+    width: 10%;
+    height: 3px;
+    margin-top: 6px;
+    background-color: orangered;
+}
+.teg-men ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+.teg-men ul li{
+    margin: 10px 6px;
+}
+.teg-men ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 8px;
+    background-color: #464646 ;
+}
+.teg-men ul li a:hover{
+    background-color: orangered;
+    transition: 1s ease-in-out;
+}
+.loction {
+    color: white;
+    margin: 15px 0;
+}
+.loction i{
+    color: orangered;
+    padding-right: 10px;
+}
+/*     .footer-two   */
+.footer-two{
+    background-color: #474747;
+    margin-top: 50px;
+}
+
+.footer-two i{
+    background-color: black;
+    padding: 12px;
+    font-size: 23px;
+    border-radius: 50%;
+    color: orangered;
+    margin: 3px;
+}
+.footer-two i:hover{
+    background-color: orangered;
+    color: white;
+    transition: 1s ease-in-out;
+}
+.reserved_text{
+    color: white;
+    line-height: 75px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+@media(max-width:991px){
+    .navbar-collapse{
+        position: absolute;
+        top: 80px;   
+        width: 100%;
+        left: 0;
+    }
+    .over{
+        padding: 0px 5px;
+    }
+    .background-bottom .viewmore {
+        bottom:8% ;
+    }
+    .viewmore h2{
+        font-size: 18px;
+    }
+    .background-r{
+        padding: 5px;
+    }
+}
+@media(max-width:768px){
+    .over{
+        padding: 15px 10px;
+    }
+    .background-r{
+        padding: 10px;
+    }
+}
+@media(max-width:576px){
+    .over{
+        padding: 15px 10px;
+    }
+    .background-bottom img{
+        bottom: 7%;
+    }
+    .viewmore h2{
+        font-size: 24px;
+    }
+}
+@media(max-width:450px){
+    .text .t1 h1{
+        font-size: 60px;
+    }
+    .t1 span{
+        font-size: 50px;
+    }
+    .text .t1 {
+        font-size: 55px;
+    }
+    .over{
+        padding: 30px 18px;
+    }
+    .background-bottom img{
+        bottom: 7%;
+    }
+    .viewmore h2{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .img_vlog {
+        margin: 15px ;
+    }
+    .reserved_text {
+        line-height: 50px;
+    }
+    .disply{
+        display: block;
+    }
+    .background-r{
+        width: 100%;
+    }
+    .img-left {
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+    }
+    .disply img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+    
